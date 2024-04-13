@@ -1,0 +1,5 @@
+data/gc_database.db
+data/tb_lobby_stats_player.csv
+data/tb_medalha.csv
+data/tb_players_medalha.csv
+data/tb_players.csv
