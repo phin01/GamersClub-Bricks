@@ -10,3 +10,4 @@ Data from [Gamers Club dataset](https://www.kaggle.com/datasets/gamersclub/brazi
 - PySpark
 - DeltaLake
 - Azure Blob Storage
+- Azure Key Vault
