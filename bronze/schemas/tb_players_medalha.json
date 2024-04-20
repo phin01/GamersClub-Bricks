@@ -4,19 +4,19 @@
             "metadata": {},
             "name": "id",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},
             "name": "idPlayer",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},
             "name": "idMedal",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},
@@ -40,7 +40,7 @@
             "metadata": {},
             "name": "flActive",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         }
     ],
     "type": "struct"

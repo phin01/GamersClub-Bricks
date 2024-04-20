@@ -4,25 +4,25 @@
             "metadata": {},
             "name": "idPlayer",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},
             "name": "flFacebook",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},
             "name": "flTwitter",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},
             "name": "flTwitch",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},

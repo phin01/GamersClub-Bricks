@@ -4,7 +4,7 @@
             "metadata": {},
             "name": "idMedal",
             "nullable": true,
-            "type": "float"
+            "type": "integer"
         },
         {
             "metadata": {},
