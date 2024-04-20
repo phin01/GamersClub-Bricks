@@ -40,6 +40,7 @@ if(len(df)) > 0:
     incremental_file_name = max(date_series).strftime("%Y-%m-%d %H_%M_%S")
     
     temp_csv_filename = (f'{Path(__file__).with_name(incremental_file_name)}.csv')
+    df['Op'] = 'I'
     df.to_csv(temp_csv_filename, index=False)
 
     blob_name = f"{CDC_FOLDER}{incremental_file_name}.csv"
