@@ -4,145 +4,145 @@
             "metadata": {},
             "name": "idLobbyGame",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "idPlayer",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "idRoom",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtKill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtAssist",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtDeath",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHs",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtBombeDefuse",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtBombePlant",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtTk",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtTkAssist",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qt1Kill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qt2Kill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qt3Kill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qt4Kill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qt5Kill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtPlusKill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtFirstKill",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "vlDamage",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHits",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtShots",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtLastAlive",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtClutchWon",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtRoundsPlayed",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
@@ -154,79 +154,79 @@
             "metadata": {},
             "name": "vlLevel",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtSurvived",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtTrade",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtFlashAssist",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHitHeadshot",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHitChest",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHitStomach",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHitLeftAtm",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHitRightArm",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHitLeftLeg",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "qtHitRightLeg",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "flWinner",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "dtCreatedAt",
             "nullable": true,
-            "type": "string"
+            "type": "timestamp"
         }
     ],
     "type": "struct"

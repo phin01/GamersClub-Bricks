@@ -4,25 +4,25 @@
             "metadata": {},
             "name": "idPlayer",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "flFacebook",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "flTwitter",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "flTwitch",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
@@ -34,13 +34,13 @@
             "metadata": {},
             "name": "dtBirth",
             "nullable": true,
-            "type": "string"
+            "type": "timestamp"
         },
         {
             "metadata": {},
             "name": "dtRegistration",
             "nullable": true,
-            "type": "string"
+            "type": "timestamp"
         }
     ],
     "type": "struct"

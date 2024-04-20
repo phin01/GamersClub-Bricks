@@ -4,43 +4,43 @@
             "metadata": {},
             "name": "id",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "idPlayer",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "idMedal",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         },
         {
             "metadata": {},
             "name": "dtCreatedAt",
             "nullable": true,
-            "type": "string"
+            "type": "timestamp"
         },
         {
             "metadata": {},
             "name": "dtExpiration",
             "nullable": true,
-            "type": "string"
+            "type": "timestamp"
         },
         {
             "metadata": {},
             "name": "dtRemove",
             "nullable": true,
-            "type": "string"
+            "type": "timestamp"
         },
         {
             "metadata": {},
             "name": "flActive",
             "nullable": true,
-            "type": "string"
+            "type": "float"
         }
     ],
     "type": "struct"
