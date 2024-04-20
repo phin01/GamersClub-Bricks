@@ -20,7 +20,7 @@ container_client = blob_service_client.get_container_client(container=container_
 def save_table_to_blob(table_name, sql_conn):
     temp_df = pd.read_sql_table(table_name, sql_conn)
     temp_csv_filename = (f'{Path(__file__).with_name(table_name)}.csv')
-    temp_df.to_csv(temp_csv_filename)
+    temp_df.to_csv(temp_csv_filename, index=False)
 
     blob_name = f"raw/full-load/{table_name}/full-load.csv"
     blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
