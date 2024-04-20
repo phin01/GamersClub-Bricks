@@ -27,3 +27,7 @@ Subsequent data loads should be incremental. In a real use case, this would be t
 1. Randomly picking matches from random players (raw/generate_random_lobby.sql)
 2. Inserting these matches to the original database (raw/insert_random_matches.py)
 3. Querying the updated database for recent inserts and uploading to datalake (raw/incremental_load.py)
+
+### Bronze Layer
+
+This layer will consolidate the original full load data and any subsequent incremental loads for all tables. From this point forward, all data transformation is done in Databricks
