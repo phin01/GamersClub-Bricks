@@ -31,3 +31,12 @@ Subsequent data loads should be incremental. In a real use case, this would be t
 ### Bronze Layer
 
 This layer will consolidate the original full load data and any subsequent incremental loads for all tables. From this point forward, all data transformation is done in Databricks
+1. Define schema for all tables (bronze/schemas/*.json)
+2. Create initial delta tables for each folder in raw layer (bronze/bronze_ingestion_full.py)
+3. Update tb_lobby_stats_player table with incremental load if new files are found in raw cdc folder (bronze/bronze_ingestion_cdc.py)
+
+##### Incremental Load
+CDC files contain an additional column ('Op') that indicates if it's the result of an *Insert*, *Update* or *Delete* operation.
+The CDC script checks the most recent entry for each key and tries to merge it with the existing delta table. If the entry is found, it'll *Update* or *Delete* based on the 'Op' column category. If the entry is not found and 'Op' category is *Insert*, it'll add the entry to the table
+
+The script can be scheduled to run on any given frequency, since the merge/Op check prevents data duplication
